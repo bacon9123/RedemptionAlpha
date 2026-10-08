@@ -233,27 +233,27 @@ namespace Redemption.NPCs.Lab.Janitor
                     if (AITimer++ == 0)
                     {
                         NPC.velocity.X = 0;
-                        string ouch = "Oof!";
+                        string ouch = Language.GetTextValue("Mods.Redemption.Cutscene.Janitor.Ouch.Stunned.1");
                         switch (Main.rand.Next(6))
                         {
                             case 1:
-                                ouch = "Owch!";
+                                ouch = Language.GetTextValue("Mods.Redemption.Cutscene.Janitor.Ouch.Stunned.2");
                                 break;
                             case 2:
-                                ouch = "Yowch!";
+                                ouch = Language.GetTextValue("Mods.Redemption.Cutscene.Janitor.Ouch.Stunned.3");
                                 break;
                             case 3:
-                                ouch = "Ow!";
+                                ouch = Language.GetTextValue("Mods.Redemption.Cutscene.Janitor.Ouch.Stunned.4");
                                 break;
                             case 4:
-                                ouch = "Arg!";
+                                ouch = Language.GetTextValue("Mods.Redemption.Cutscene.Janitor.Ouch.Stunned.5");
                                 break;
                             case 5:
-                                ouch = "Damn it!";
+                                ouch = Language.GetTextValue("Mods.Redemption.Cutscene.Janitor.Ouch.Stunned.6");
                                 break;
                         }
                         if (!darnMops)
-                            ouch += "[0.3] Darn mops hittin' my noggin!";
+                            ouch += Language.GetTextValue("Mods.Redemption.Cutscene.Janitor.Ouch.Stunned.7");
                         Dialogue d = new(NPC, ouch, Colors.RarityYellow, new Color(100, 86, 0), voice, .01f, 1f, 1f, true);
                         ChatUI.Visible = true;
                         ChatUI.Add(d);
@@ -272,23 +272,23 @@ namespace Redemption.NPCs.Lab.Janitor
                 case ActionState.Slip:
                     if (AITimer++ == 0)
                     {
-                        string ouch = "Ah!";
+                        string ouch = Language.GetTextValue("Mods.Redemption.Cutscene.Janitor.Ouch.Slip.1");
                         switch (Main.rand.Next(6))
                         {
                             case 1:
-                                ouch = "D'oh!";
+                                ouch = Language.GetTextValue("Mods.Redemption.Cutscene.Janitor.Ouch.Slip.2");
                                 break;
                             case 2:
-                                ouch = "Oops!";
+                                ouch = Language.GetTextValue("Mods.Redemption.Cutscene.Janitor.Ouch.Slip.3");
                                 break;
                             case 3:
-                                ouch = "Whoops!";
+                                ouch = Language.GetTextValue("Mods.Redemption.Cutscene.Janitor.Ouch.Slip.4");
                                 break;
                             case 4:
-                                ouch = "Not again!";
+                                ouch = Language.GetTextValue("Mods.Redemption.Cutscene.Janitor.Ouch.Slip.5");
                                 break;
                             case 5:
-                                ouch = "Damn it!";
+                                ouch = Language.GetTextValue("Mods.Redemption.Cutscene.Janitor.Ouch.Slip.6");
                                 break;
                         }
                         Dialogue d = new(NPC, ouch, Colors.RarityYellow, new Color(100, 86, 0), voice, .01f, 1f, 1f, true);
