@@ -148,12 +148,12 @@ Mods: {
 			}
 
 			KeeperSpirit: {
-				Name: Eco de La Custodia
+				Name: Eco de la Custodia
 				Modifier: Una esencia persistente
 			}
 
 			SkullDigger: {
-				Name: Skull Digger
+				Name: Cava Cráneos
 				Modifier: La primera creación de la Custodia
 			}
 
@@ -262,7 +262,7 @@ Mods: {
 			FowlEmperor2: Tal vez solo era un pollo, pero era un recordatorio de la horrible verdad de que, sin importar la especie, la monarquía perpetúa visiones arcaicas de clase y degrada a otros según estándares arbitrarios.
 			Thorn: Un desafortunado guardián de un bosque maldito, condenado a ser consumido por espinas corruptas.
 			Keeper: Una poderosa caída que aprendió necromancia prohibida, cuyo uso prolongado mutó su cuerpo.
-			SkullDigger: La primera reanimación exitosa de la Custodia. Skull Digger juró protegerla y cuidarla, mientras ella usaría necromancia prohibida para mantener su cuerpo desvaneciente con vida. A estas alturas, su mitad inferior no es más que un espíritu.
+			SkullDigger: La primera reanimación exitosa de la Custodia. Cava Cráneos juró protegerla y cuidarla, mientras ella usaría necromancia prohibida para mantener su cuerpo desvaneciente con vida. A estas alturas, su mitad inferior no es más que un espíritu.
 			SoI: Un bolsillo abrasador de la infección de xenomita.
 			Golem: Construido en Gathuram y enviado a Ithon como un regalo en una época de paz entre los dominios. Aunque la gente de Gathuram olvidó mencionar una cosa...
 			Calavia: Una Jefa-Guerrera del Reino de Hierro, perdida y preocupada por su lejana expedición desde su hogar en Khen Boldur, impulsada por los barones de Arum. Es experta en esgrima y herrería, además de tener conocimientos de magia de hielo.
@@ -415,7 +415,7 @@ Mods: {
 				Keeper1: Gritos de tormento resuenan en esta noche...
 				Keeper2: La Custodia notó el osito de peluche abandonado que llevas...
 				Keeper3: El espíritu de La Custodia se desvanece...
-				SkullDigger: El espíritu de Skull Digger se desvanece...
+				SkullDigger: El espíritu de Cava Cráneos se desvanece...
 				GolemSpawn: Una piedra durmiente aparece...
 				NebGone: Ya no se ve a Nebuleus por ningún lado...
 				NPCWokeUp: ¡{0} se ha despertado!
@@ -955,8 +955,8 @@ Mods: {
 				6: No habrás visto a mi amigo por aquí,[0.1] ¿cierto?
 				6Chicken: ¿Adónde fue Zephos?
 				7: Supongo que no saltó dentro.[0.5] Oh bueno,[0.1] volveré a buscarlo.
-				8: Tendrás un lugar donde pueda quedarme por un tiempo si regreso,[0.1] ¿verdad?
-				8Chicken: Qué extraño,[0.1] es como si me pudieses entender...[0.5] ¡Oh bueno,[0.1] de regreso voy!
+				8: ¿Tendrás un lugar donde pueda quedarme por un tiempo si regreso?[0.1] ¡Nos vemos!
+				8Chicken: Qué extraño,[0.1] es como si me pudieses entender...[0.5] ¡Bueno,[0.1] de regreso me voy!
 			}
 
 			ZephosIntro: {
@@ -967,7 +967,7 @@ Mods: {
 				5: "[@b]Oh,[0.1] ¡hola![0.1] No me fije en ti."
 				5Chicken: "[@b]¡Oh, genial![0.1] ¡Un pollo con corona!"
 				6: No te has encontrado con un chico cubierto con una capa negra,[0.1] ¿no?
-				7: Supongo que no saltó dentro.[0.5] ¡Está bien![0.1] Volveré a buscarlo.
+				7: Supongo que no saltó dentro.[0.5] ¡Bueno![0.1] Volveré a buscarlo.
 				8: Regresaré cuando lo encuentre,[0.1] ¡así que más te vale tener un lugar para que nos quedemos!
 			}
 
@@ -1264,6 +1264,8 @@ Mods: {
 			}
 
 			OO: {
+				Shout.Beam: ¡Ojo radiante!
+
 				Intro: {
 					1: Yoh.
 					2: Demasiado para un ataque sorpresa...
@@ -1282,13 +1284,13 @@ Mods: {
 				Desperation: {
 					1: SOBRECARGA DEL SISTEMA...
 					2: ¿Sobrecarga?[0.5] ¡Claro que me estoy sobrecargando!
-					3: ¡Mis circuitos están ardiendo de energía![0.1] ¡Esto es realmente estimulante!
+					3: ¡Mis circuitos están ardiendo de energía![0.1] ¡Es realmente estimulante!
 					4: "[@d]SOBRECALENTAMIENTO...[0.1] SOBRECALENTAMIENTO...[0.1] SOBRECALENTAMIENTO...[0.1]"
 					5: Jajaja.[0.5] [@e]¡JAJAJAJAJAJAJA!
 					6: ¡EL PODER DEL SOL EN MI NÚCLEO PURO!
 					D1: SOBRECARGA DEL SISTEMA...
 					D2: "[@d][@e]SOBRECALENTAMIENTO...[0.1] SOBRECALENTAMIENTO...[0.1] SOBRECALENTAMIENTO...[0.1]"
-					7: ¡EYE BEAM! ¡EYE BEAM! ¡EYE BEAM! ¡EYE BEAM!
+					7: ¡OJO RADIANTE! ¡OJO RADIANTE! ¡OJO RADIANTE!
 					8: ESTADO CRÍTICO ALCANZADO...[0.5] AUTODESTRUYENDO...
 					9: ¿Hace calor aquí?[0.1] O simplemente soy y[@c]
 				}
@@ -1312,8 +1314,8 @@ Mods: {
 				Defeat: {
 					Refight: Suficiente.
 					1: ... ¿Se te permite pasar?[0.5] Déjame comprobarlo.
-					2: ... ¿Oh?
-					3: ... ¿Estás autorizado?
+					2: ... Oh
+					3: Estás... ¿autorizado?
 					4: Esto fue un poco vergonzoso.[0.5] Discúlpame.
 				}
 			}
@@ -1327,8 +1329,29 @@ Mods: {
 					R3: "[@a]*Gruñidos* Estos malditos bots descuidados siempre perdiendo sus tarjetas..."
 				}
 
+				Ouch: {
+					Stunned: {
+						1: ¡Oof!
+						2: ¡Ouch!
+						3: ¡Youch!
+						4: ¡Ow!
+						5: ¡Agh!
+						6: ¡Maldita sea!
+						7: "[0.3] ¡Malditos trapeadores golpeadores!"
+					}
+
+					Slip: {
+						1: ¡Ah!
+						2: ¡Douh!
+						3: ¡Uups!
+						4: ¡Wuups!
+						5: ¡No denuevo!
+						6: ¡Maldita sea!
+					}
+				}
+
 				Defeat: {
-					1: Está bien,[0.1] ¡está bien!
+					1: Bueno,[0.1] ¡ya!
 					2: De acuerdo,[0.1] probablemente puedas arreglártelas solo aquí
 					3: Toma,[0.1] llévate esta cosa para acceder al laboratorio y ¡piérdete!
 					4: "[@a]Tengo que trapear un poco."
@@ -1358,7 +1381,7 @@ Mods: {
 				Encounter3: {
 					1: ¡Ja, nada mal!
 					2: Es un poco triste ver que tan inútil la tecnología del escudo TeoChrome fue,
-					3: No se puede abarcar algo por completo, ya que el proyector del escudo hará un escándalo si estás dentro.
+					3: Ni siquiera puede cubrirse por completo, los proyectores del escudo fallan si se quedan dentro...
 					4: Sin embargo, Se me ocurrieron algunas ideas en cómo usar esto a mi favor...
 					5: ¡Cómo sea! Igual que la última vez, prepararé otra máquina para poner a prueba.
 					6: Puede que se tome más de lo esperado, ya que probaré un diseño propio, Hasta entonces.
@@ -1407,10 +1430,16 @@ Mods: {
 					3: Esta investigación ha resultado muy fructífera; me emociona pensar en cómo aprovechar todo esto.
 					4: ¡Ah, cierto! La última prueba no está muy lejos.
 					5: ¡Y tengo algo increíble para mostrarte! Ah, pero tendrá que ser un secreto hasta entonces.
-					v1: Está bien, diré esto. Es un proyecto colaborativo entre yo y 'alguien que ambos conocemos'.
-					v2: Está bien, diré esto. Es un proyecto colaborativo entre yo y uno de los pocos que te han derrotado.
-					v3: Está bien, diré esto. Es un proyecto colaborativo entre yo y otro.
+					v1: Bueno, solo diré esto. Es un proyecto colaborativo entre yo y 'alguien que ambos conocemos'.
+					v2: Bueno, solo diré esto. Es un proyecto colaborativo entre yo y uno de los pocos que te lograron superar.
+					v3: Bueno, solo diré esto. Es un proyecto colaborativo entre yo y otro.
 				}
+			}
+
+			ADDIntro: {
+				1: Una tormenta se forma...
+				2: ...Y la naturaleza tiembla
+				3: La Ira de los Dioses cae sobre ti
 			}
 
 			Nebuleus: {
@@ -1494,7 +1523,7 @@ Mods: {
 					6: Si el Semidiós viene por ti,[0.1] no le hagas saber que sigo con vida.
 					7: Me aterra lo que pueda pensar de mí,[0.1] y no quiero afrontarlo.
 					8: Para pensar que moriré de nuevo tan pronto...
-					9: Soy realmente patético.
+					9: Soy un ridiculo.
 				}
 			}
 
@@ -1773,7 +1802,7 @@ Mods: {
 				2: ¿Dios de la Decadencia?
 				3: ¿Falsos Dioses?
 				4: ¿Campana difunta?
-				5: ¿Skull Digger?
+				5: ¿Cava Cráneos?
 				6: ¿Cómo murió?
 				Offer: Ofrecer Hacha de Batalla de Acero Grave
 			}
@@ -3390,8 +3419,8 @@ Mods: {
 				2: Un portador de enfermedades. Un dios falso que vagaba por nuestras tierras. Pudría y corroía la carne, convirtiendo a los humanos en no-muertos. Descubrimos que la infección se propagaba más en los pantanos, por lo que los habitantes que aún vivían abandonaron el reino y viajaron más al oeste. Fueron tiempos tan difíciles que solo miro hacia atrás con angustia por mi gente.
 				3: Agradece el presente en el que vives ahora. El Mundo Antiguo era una era implacable, empeorada por los Dioses Falsos. Solo conocíamos a uno en ese momento; los otros espíritus hablaron de más. Aparentemente, también había uno en Anglon, Blight, creo. A pesar de todo el conocimiento que pueden brindar mil espíritus, ninguno conoce los orígenes de los Dioses Falsos. Sin embargo, todos están muertos, el último de ellos fue derribado por la antigua Luz. Y no me refiero a la Luz que quizás conozcas.
 				4: Sí, sé del artefacto que llevas, ¡de hecho fue creado en la capital de Iful! Originalmente, su propósito era obtener conocimiento del pasado, pero con el tiempo lo usamos por razones más personales, como dejar que los muertos hablen con sus familiares y amigos. Sin embargo, no estoy seguro de por qué lo encontraron debajo de esta isla.
-				ChatSkullDigger: ¡Debes haber visto las similitudes en nuestros títulos! "Cortador de cerebros" y "Skull Digger" o bueno Cava cráneos en español. Éramos hermanos de guerra, ¡dos caras del mismo dorul! Él era muy fuerte, ¡pero yo era más fuerte! Aunque ni siquiera yo podía igualar su compasión y modestia.
-				6: Una historia desgarradora. Un niño fue arrebatado por la descomposición y era nuestra responsabilidad darle piedad, pero Skully dudó en dar el golpe mortal. Como un cachorro de lobo acorralado, el niño mostró sus colmillos. Mi orgullo resiente el hecho de que un simple niño nos haya arrebatado la vida, pero no culpo a Skully. Nunca subestimes el poder que puede tener la tristeza, que es el contraste de un buen corazón. Por lo menos, me siento aliviado de que muriera antes de que surgieran los Sin almas; no habría tenido ninguna oportunidad contra ellos.
+				ChatSkullDigger: ¡Debes haber visto las similitudes en nuestros títulos! "Cortador de cerebros" y "Cava Cráneos". Éramos hermanos de guerra, ¡dos caras del mismo dorul! Él era muy fuerte, ¡pero yo era más fuerte! Aunque ni siquiera yo podía igualar su compasión y modestia.
+				6: Una historia desgarradora. Un niño fue arrebatado por la descomposición y era nuestra responsabilidad darle piedad, pero Craneítos dudó en dar el golpe mortal. Como un cachorro de lobo acorralado, el niño mostró sus colmillos. Mi orgullo resiente el hecho de que un simple niño nos haya arrebatado la vida, pero no culpo a Craneítos. Nunca subestimes el poder que puede tener la tristeza, que es el contraste de un buen corazón. Por lo menos, me siento aliviado de que muriera antes de que surgieran los Sin almas; no habría tenido ninguna oportunidad contra ellos.
 			}
 
 			SpiritNiricLady: {
@@ -3563,9 +3592,9 @@ Mods: {
 				2: Los demás robots han aprendido a tenerme miedo. Por suerte, ahora puedo concentrarme en mi trabajo. Excepto que ahora hay alguien que me molesta. Mmm, me pregunto quién podría ser... ¡Ahora lárgate!
 				3: El gran bot del Sector Ómicron es un tipo genial, si me lo preguntas. Probablemente sea el único robot que no me molesta. Ahora, si me disculpas, ¡trajiste algo de slime contigo y tengo que limpiarla!
 				4: Hay un bot de pelo cobrizo que recuerdo, que trabaja como operador de grúas en la sala de almacenamiento de mechas. No sé mucho sobre él, pero su diseño es un poco peculiar. No es que sea más femenino, pero el pelo... ¿Por qué?
-				5: ¡No te atrevas a entrar en el Sector Cero, ese lugar está completamente lleno de slime negro imposible de eliminar! ¡Y no quiero que traigas esa sustancia aquí para que yo intente arrancar el revestimiento de acero del laboratorio! Lleva una eternidad.
+				5: ¡No te atrevas a entrar en el Sector Cero, ese lugar está completamente lleno de slime negro imposible de quitar! ¡Y no quiero que traigas esa sustancia aquí para que yo intente arrancar el cubrimiento de acero del laboratorio! Lleva una eternidad.
 				5Clean: No lo haré. Girus lo prohíbe y no quisiera traicionarla.
-				6: Respeta a Girus y ella aprenderá a respetarte. Estoy bastante seguro de que conseguiré un cambio de trabajo después de medio siglo de limpiar el laboratorio después del... incidente. No me preguntes al respecto, me activaron DESPUÉS de que ocurriera.
+				6: Respeta a Girus y ella aprenderá a respetarte. Estoy muy seguro de que conseguiré un cambio de trabajo después de medio siglo de limpiar el laboratorio después del... incidente. No me preguntes al respecto, me activaron DESPUÉS de que ocurriera.
 			}
 
 			Toaster: {
@@ -4598,7 +4627,7 @@ Mods: {
 			}
 
 			SkullDiggerMask: {
-				DisplayName: Máscara de Skull Digger
+				DisplayName: Máscara de Cava Cráneos
 				Tooltip: "'Hecho de hueso'"
 			}
 
@@ -6800,7 +6829,7 @@ Mods: {
 			}
 
 			SkullDiggerBox: {
-				DisplayName: Caja de música (Skull Digger)
+				DisplayName: Caja de música (Cava Cráneos)
 				Tooltip: Yuri O - The Loudness of Silence
 			}
 
@@ -7890,7 +7919,7 @@ Mods: {
 			}
 
 			PZBag: {
-				DisplayName: Bolsa del tesoro (Patient Zero)
+				DisplayName: Bolsa del tesoro (Paciente cero)
 				Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 			}
 
@@ -9339,11 +9368,11 @@ Mods: {
 			}
 
 			SkullDiggerFlail: {
-				DisplayName: Skull Digger de Skull Digger
+				DisplayName: Cava Cráneos de Cava Cráneos
 				Tooltip:
 					'''
 					Si haces girar el arma a tu alrededor, evocarás espejismos del tipo {0}
-					'Cava cráneos de Cava cráneos... Sí, le puso su apodo a su arma.'
+					'Sí, le puso su apodo a su arma.'
 					'''
 			}
 
@@ -9658,14 +9687,14 @@ Mods: {
 			}
 
 			CruxCardSkullDigger: {
-				DisplayName: Carta crux: Skull Digger
+				DisplayName: Carta crux: Cava Cráneos
 				Tooltip:
 					'''
-					Convoca al gran espíritu de Skull Digger
+					Convoca al gran espíritu de Cava Cráneos
 					Consume {0} [i:Redemption/LostSoul] por uso
 					Clic derecho para regresar al espiritu a tu posicion
 					Solo se puede usar una carta espiritual a la vez
-					[c/99D4FF:'Un protector leal. Skull Digger siempre ha intentado ser misericordioso incluso con sus mayores enemigos,]
+					[c/99D4FF:'Un protector leal. Cava Cráneos siempre ha intentado ser misericordioso incluso con sus mayores enemigos,]
 					[c/99D4FF:Pero a quienes amenazan a quienes ama, él está dispuesto a segarles.']
 					'''
 			}
@@ -10539,8 +10568,8 @@ Mods: {
 				DisplayName: Parche irregular
 				Tooltip:
 					'''
-					Invoca a un mini Skull Digger para protegerte
-					... Está haciendo lo mejor que puede.
+					Invoca a un mini Cava Cráneos para protegerte
+					... Hace lo mejor que puede.
 					'''
 			}
 
@@ -10555,12 +10584,12 @@ Mods: {
 			}
 
 			SkullDiggerRelic: {
-				DisplayName: Reliquia de Skull Digger
+				DisplayName: Reliquia de Cava Cráneos
 				Tooltip: ""
 			}
 
 			SkullDiggerTrophy: {
-				DisplayName: Trofeo Skull Digger
+				DisplayName: Trofeo Cava Cráneos
 				Tooltip: ""
 			}
 
@@ -11072,7 +11101,7 @@ Mods: {
 				DisplayName: Bastón de madera anciana
 				Tooltip:
 					'''
-					Invoca un anillo de duendecillos protector
+					Invoca un anillo de duendecillos protectores
 					Los duendecillos se infunden aleatoriamente con el elemento de {0} o {1}
 					Haz clic derecho para lanzar el anillo de duendecillos hacia el cursor
 					'''
@@ -11777,7 +11806,7 @@ Mods: {
 			LivingBloomRoot.DisplayName: Raíz viva
 			MutatedLivingBloomRoot.DisplayName: Raíz viva mutante
 			OozeBall_Proj.DisplayName: Sustancia infecciosa
-			PrototypeSilver_Beam.DisplayName: Eye Beam
+			PrototypeSilver_Beam.DisplayName: Rayo ocular
 			Bacteria_Proj.DisplayName: Bacteria
 			CalciteWand_Proj.DisplayName: Estalagmitas de calcita
 			CantripEmber.DisplayName: Brasas
@@ -12124,15 +12153,15 @@ Mods: {
 			Blisterface_Drip_Proj.DisplayName: Sludge Droplet
 			ErhanMagnifyingGlass_HoldOut.DisplayName: "{$Mods.Redemption.Items.ErhanMagnifyingGlass.DisplayName}"
 			// LightningRod_Conductor.DisplayName: Conductor Rod
-			// LightningRod_Discharge.DisplayName: "{$Mods.Redemption.Items.LightningRod.DisplayName}"
+			LightningRod_Discharge.DisplayName: "{$Mods.Redemption.Items.LightningRod.DisplayName}"
 			// CorruptedSentryBase_Proj.DisplayName: Corrupted Sentry Base_ Proj
 			// HoneycombStaff_Proj.DisplayName: Honeycomb Hive
 			// XenoSplat_Small.DisplayName: Xeno Splat
 			// GhastlyRecurve_Holdout.DisplayName: "{$Mods.Redemption.Items.GhastlyRecurve.DisplayName}"
-			// AkkaRosePortal.DisplayName: Red Rose Portal
-			// AkkaRosePortal_Proj.DisplayName: Red Rose Thorn
-			// HellstoneBallista_Bolt.DisplayName: Hellstone Bolt
-			// HellstoneBallista_Top.DisplayName: Hellstone Ballista
+			AkkaRosePortal.DisplayName: Portal de rosa roja
+			AkkaRosePortal_Proj.DisplayName: Espina de rosa roja
+			HellstoneBallista_Bolt.DisplayName: Chispa de piedra infernal
+			HellstoneBallista_Top.DisplayName: Balista de piedra infernal
 		}
 
 		NPCs: {
@@ -12416,7 +12445,7 @@ Mods: {
 			}
 
 			SkullDiggerFriendly.DisplayName: "{$Mods.Redemption.NPCs.SkullDigger.DisplayName}"
-			SkullDiggerFriendly_Spirit.DisplayName: Espíritu de Skull Digger
+			SkullDiggerFriendly_Spirit.DisplayName: Espíritu de Cava Cráneos
 			SoullessPortal.DisplayName: Portal de las almas sombrías
 			SpiritAssassin.DisplayName: Espíritu asesino
 
@@ -12568,7 +12597,7 @@ Mods: {
 			EaglecrestRockPile.DisplayName: Pila de rocas de Eaglecrest
 
 			SkullDigger: {
-				DisplayName: Skull Digger
+				DisplayName: Cava Cráneos
 				BossChecklistIntegration.SpawnInfo: Vaga por las cavernas, buscando venganza...
 			}
 
@@ -12865,7 +12894,7 @@ Mods: {
 			ShadestoneMirrorTile2.MapEntry: Espejo de piedra sombría
 			ShadestonePianoTile.MapEntry: Piano de piedra sombría
 			ShadestoneSofaTile.MapEntry: Sofá de piedra sombría
-			WoodenBallistaTile.MapEntry: Ballesta de madera
+			WoodenBallistaTile.MapEntry: Balista de madera
 			MoonflareCandleTile.MapEntry: Vela llamalunar
 			InfectedCorpse1Fake.MapEntry: "{$Mods.Redemption.Tiles.InfectedCorpse1Tile.MapEntry}"
 			InfectedCorpse2Fake.MapEntry: "{$Mods.Redemption.Tiles.InfectedCorpse1Tile.MapEntry}"
@@ -12950,7 +12979,7 @@ Mods: {
 			DownedOmega3: Tras derrotar a Omega Obliterador
 			DownedPZ: Tras derrotar al Paciente cero
 			DownedSeed: Tras derrotar a la Semilla de la infección
-			DownedSkullDigger: Tras derrotar a Skull Digger
+			DownedSkullDigger: Tras derrotar a Cava Cráneos
 			DownedVolt: Tras derrotar a Protector Volt
 			DownedSlayer: Tras derrotar a King Slayer
 			BroughtCat: y tengas un gato

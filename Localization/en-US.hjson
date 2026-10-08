@@ -1262,6 +1262,8 @@ Mods: {
 			}
 
 			OO: {
+				Shout.Beam: Eye beam!
+
 				Intro: {
 					1: Yo.
 					2: So much for a surprise attack...
@@ -1323,6 +1325,27 @@ Mods: {
 					R1: ...Why did you have to barge in through the ventilation shaft?
 					R2: Lost your access card huh?[0.5] Have mine and get out of my sight.
 					R3: "[@a]*Grumbles* Those darn careless bots losing their cards..."
+				}
+
+				Ouch: {
+					Stunned: {
+						1: Oof!
+						2: Owch!
+						3: Yowch!
+						4: Ow!
+						5: Arg!
+						6: Damn it!
+						7: "[0.3] Darn mops hittin' my noggin!"
+					}
+
+					Slip: {
+						1: Ah!
+						2: D'oh!
+						3: Oops!
+						4: Whoops!
+						5: Not again!
+						6: Damn it!
+					}
 				}
 
 				Defeat: {
@@ -1409,6 +1432,12 @@ Mods: {
 					v2: Alright, I'll say this. It's a collaborative project between me and one of the few to best you.
 					v3: Alright, I'll say this. It's a collaborative project between me and another.
 				}
+			}
+
+			ADDIntro: {
+				1: A storm is brewing...
+				2: ... And nature trembles
+				3: The Gods' wrath is upon you
 			}
 
 			Nebuleus: {
