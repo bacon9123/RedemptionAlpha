@@ -609,11 +609,11 @@ namespace Redemption.NPCs.PreHM
 
                         string line1 = Personality switch
                         {
-                            PersonalityState.Calm => "Your fae says you're kind-hearted.[0.5] I will put it in good faith.",
-                            PersonalityState.Shy => "Your fae tells me you're safe.[0.5] I'm still rather sceptical,[0.1] but I'll trust it's words.",
-                            PersonalityState.Jolly => "Your fae just told me how pleasant you are.[0.5] A friend of nature is a friend of me.",
-                            PersonalityState.Aggressive => "Are you sure, fae?[0.5] This human doesn't look very kindly,[0.1] but I will trust your word.",
-                            _ => "Your fae says you have a good heart.[0.5] I will be less wary of you from now on.",
+                            PersonalityState.Calm => Language.GetTextValue("Mods.Redemption.Dialogue.ForestNymph.FaeCalm"),
+                            PersonalityState.Shy => Language.GetTextValue("Mods.Redemption.Dialogue.ForestNymph.FaeShy"),
+                            PersonalityState.Jolly => Language.GetTextValue("Mods.Redemption.Dialogue.ForestNymph.FaeJolly"),
+                            PersonalityState.Aggressive => Language.GetTextValue("Mods.Redemption.Dialogue.ForestNymph.FaeAggressive"),
+                            _ => Language.GetTextValue("Mods.Redemption.Dialogue.ForestNymph.Fae"),
                         };
                         DialogueChain chain = new();
                         chain.Add(new(NPC, line1 + "[@End]", Color.LightGreen, Color.ForestGreen, voice, .05f, 2, .5f, true, bubble: bubble));
