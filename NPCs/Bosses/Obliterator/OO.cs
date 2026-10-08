@@ -837,7 +837,7 @@ namespace Redemption.NPCs.Bosses.Obliterator
                                 {
                                     if (!RedeBossDowned.downedOmega3 && !Main.dedServ)
                                     {
-                                        Dialogue d1 = new(NPC, "Eye beam!", Colors.RarityRed, Color.DarkRed, Voice, .03f, 1.16f, .5f, true, null, Bubble, modifier: modifier);
+                                        Dialogue d1 = new(NPC, Language.GetTextValue("Mods.Redemption.Cutscene.OO.Shout.Beam"), Colors.RarityRed, Color.DarkRed, Voice, .03f, 1.16f, .5f, true, null, Bubble, modifier: modifier);
                                         ChatUI.Visible = true;
                                         ChatUI.Add(d1);
                                     }
