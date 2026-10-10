@@ -272,7 +272,7 @@ Mods: {
 			Behemoth: Un desafortunado científico, desfigurado y mutilado más allá del reconocimiento por la infección de xenomita. Este espécimen está entrando en la etapa final de la infección y su cuerpo se ha transformado en una masa viscosa pegada al techo... Dios, eso debe ser agonizante.
 			Blisterface1: Un desafortunado pez, desfigurado y mutilado más allá del reconocimiento por la infección de xenomita. Esta cepa parece ser similar a la de los Científicos Ampollados...
 			Blisterface2: Ese es un pez gigantesco.
-			Janitor: En medio de todos los males que los gérmenes pueden conjurar, toda la mugre que la humanidad puede producir. Te enviaremos a ti. Raspa y limpia hasta que todo termine.
+			Janitor: Entre todos los males que los gérmenes pueden conjurar, y toda la mugre que la humanidad puede producir. Te enviaremos... solo a ti. Raspa y limpia, hasta que no quede nada.
 			Volt: Un gigante amable que mantiene sus frases cortas y actúa como guardia dentro del laboratorio. Volt solía formar parte de la Unidad Bear en la superficie, pero se retiró después de un altercado violento.
 			MACE: Una vieja máquina de guerra incompleta que se volvió loca. Parece que nunca vio la luz del día, ya que está en proceso de ser desmantelada para obtener partes y componentes.
 			KS3: "'¿Qué? ¿Quieres mi historia? ¡Ve a hacer tu propia historia!'"
@@ -1040,7 +1040,7 @@ Mods: {
 				Fight2: Mi señora,[0.1] no se preocupe,[0.1] aplastaré a este insecto.
 				Fight3: Prepárate para cosechar lo que siembras...
 				Fight4: Finalmente te encontré,[0.1] diminuto insecto..
-				Defeat1: Mi querida Ama,[0.1] Te he fallado.
+				Defeat1: Mi querida ama,[0.1] te he fallado.
 				Defeat2: Parece que nuestro tormento permanece eterno.
 				1: Gra-
 				2: cias...
@@ -1048,24 +1048,24 @@ Mods: {
 
 			TBotIntro: {
 				Normal1: ¡AH!
-				Normal2: ...P-[0.1] Pensé que eras alguien más.[0.5] Perdón por eso.
+				Normal2: ...P-[0.1] Pensé que eras alguien más.[0.5] Perdón por confundirte.
 				Normal3: De todos modos,[0.1] hola.[0.5] Soy Adam,[0.1] y soy un androide que proviene de un lejano y nevado páramo.
 				Normal4: "[@b]Dado que no volveré a ese infierno helado durante un buen tiempo,[0.1] ¿te importa si me quedo aquí?[0.5] Supongo que tendrás algún refugio donde quedarme."
 				Normal5: ...El parecido entre ellos es inquietante...
 				Robot1: ¿EH?
 				Robot2: Como-[0.1] Qu-[0.1] Yo-
-				Robot3: *Suspiro*[0.1] No esperaba ver alguien como nosotros aquí.
-				Robot4: No regresare allí ahora.[0.5] Dado que estás aquí y no allí,[0.1] puedo asumir con seguridad de que no estás con Ella...?
-				Robot5: "[@a]...Está bien.[0.5] Podemos ignorarnos mutuamente entonces."
+				Robot3: *Suspiro*[0.1] No esperaba ver a alguien como nosotros en este lugar.
+				Robot4: No pienso volver allá por ahora.[0.5] Si estas aquí y no allá,[0.1] puedo asumir con seguridad que no estás de su lado...
+				Robot5: "[@a]...En ese caso.[0.5] Podemos ignorarnos el uno al otro de forma segura entonces."
 				Chicken1: ¡Ah!
 				Chicken2: ¿Un pollo?..
 				Chicken3: Parece que realmente entiendes lo que digo.[0.5] Eso es sorprendente.
-				Chicken4: Yo,[0.1] Em,[0.1] me quedaré aquí por el momento.[0.5] Espero que estés bien con eso.
+				Chicken4: Yo,[0.1] Eh,[0.1] me quedaré aquí por el momento.[0.5] Espero que estés bien con eso.
 				Chicken5: Tomaré ese cacareo como afirmativo...
 				Warhead1: Ah,[0.1] debería advertirte si decides hacer detonar eso.
-				Warhead2: La radiación es un peligro grave para seres humanos como tú,[0.1] pero se puede evitar.
+				Warhead2: La radiación es un grave peligro para seres humanos como tú,[0.1] pero se puede evitar.
 				Warhead3: Si ves un material azul brillante cerca de un cráter,[0.1] no te acerques demasiado.[0.5] Eso debería ser plutonio.
-				Warhead4: Un Geiger-Muller te advertirá sobre las áreas irradiadas,[0.2] y si llegas a enfermarte,[0.1] toma una pastilla antirradiación lo antes posible.
+				Warhead4: Un Geiger-Muller te advertirá sobre las áreas irradiadas,[0.2] y si llegas a enfermarte,[0.1] toma una pastilla de antirradiación lo antes posible.
 				Warhead5: .[0.1].[0.1].[0.1]Personalmente,[0.1] aconsejaría no hacerlo detonar en primer lugar.
 			}
 
@@ -1634,7 +1634,7 @@ Mods: {
 				A4N: Estás siguiendo un camino verdaderamente peligroso
 				A4: Venciendo el mal del mundo... Realmente eres alguien especial.
 				A5N: Ya no puedes regresar...
-				A5: La luz brilla dentro de ti, pero estoy seguro de que que aún te esperan enemigos más peligrosos...
+				A5: La luz brilla dentro de ti, pero estoy seguro de que aún te esperan enemigos más peligrosos...
 				A6N: Ya no hay redención para ti...
 				A6: Eres la redención que este mundo necesitaba...
 				ADDDefeat: Se desconoce cómo gobernaron estas deidades olvidadas, así que no puedo juzgar su derrota..
@@ -2752,7 +2752,7 @@ Mods: {
 			}
 
 			WeirdBloomBuff: {
-				DisplayName: Floración rara
+				DisplayName: Floración extraña
 				Description: Soy la floración viviente original
 			}
 
@@ -2772,7 +2772,7 @@ Mods: {
 			}
 
 			HoneycombStaffBuff: {
-				DisplayName: Colmena de panal
+				DisplayName: Panal colmena
 				Description: ¡Haz que salgan zumbando!
 			}
 
@@ -3005,13 +3005,13 @@ Mods: {
 			}
 
 			Daerel: {
-				IntroDialogue1: Hola de nuevo, perdona la intrusión, pero he perdido a mi amigo a través de ese portal. ¿Te importaría si me quedo aquí para conseguir algunos suministros? Estoy seguro de que lo encontraré eventualmente.
+				IntroDialogue1: Hola de nuevo, perdona la molestia, pero he perdido a mi amigo a través de ese portal. ¿Te importaría si me quedo aquí para conseguir algunos suministros? Estoy seguro de que lo encontraré con el tiempo.
 				IntroDialogue2: Gracias. Solo vengo por algunos recursos, no por tus pertenencias. Solo unas cosas para ayudarme a encontrar a mi amigo. Soy Daerel, por cierto. Un placer conocerte.
 				IntroDialogue3: Oh, sí, perdón, soy Daerel. Soy decente con el arco y eso es todo por ahora. Espero ser más hábil en mi oficio pronto, y cuando lo sea, estoy seguro de que tu humilde isla tendrá un buen arquero algún día. Por ahora, debo atender el asunto de mi amigo y conseguir algunos recursos útiles. Espero que mi presencia no te incomode.
 				IntroDialogue4: Gracias. Solo vengo por algunos recursos, no por tus pertenencias. Solo unas cosas para ayudarme a encontrar a mi amigo. Un placer conocerte.
 				PartyGirlDialogue: Juro que {0} me recuerda a un poni de colores de otro universo...
 				Dialogue1: La atmósfera aquí me pone los pelos de punta, por favor déjame vivir en algún lugar menos espeluznante.
-				Dialogue2: ¿Necesitas algo? Puedo volver a tensar tu arco o envenenar tu arma. Aunque te costará.
+				Dialogue2: ¿Necesitas algo? Puedo volver a tensar tu arco o envenenar tu arma. Aunque te costará un poco de monedas.
 				Dialogue3: El sonido de la lluvia golpeando el techo de una casa acogedora nunca envejece.
 				Dialogue4: ¿No te importa que me quede aquí, verdad?
 				Dialogue5: ¿Has notado lo dóciles que son las criaturas aquí? ¡Podría acercarme a un conejo y acariciarlo, así de fácil! ¡Es genial!
@@ -11314,7 +11314,7 @@ Mods: {
 			}
 
 			HoneycombStaff: {
-				DisplayName: Bastón de panal de miel
+				DisplayName: Bastón de panal y miel
 				Tooltip:
 					'''
 					{$CommonItemTooltip.Sentry}
@@ -12117,7 +12117,7 @@ Mods: {
 			Neb_Vortex.DisplayName: Cosmic Vortex
 			PoemTornado_Rock.DisplayName: Roca de Illmatar
 			NebPet2_Proj.DisplayName: Nebby
-			WeirdBloomPet.DisplayName: Floración rara
+			WeirdBloomPet.DisplayName: Floración extraña
 			Scream.DisplayName: Grito
 			Twinklestar_Holdout.DisplayName: "{$Mods.Redemption.Items.Twinklestar.DisplayName}"
 			Twinklestar_ShootingStar.DisplayName: Estrella fugaz
@@ -12152,12 +12152,12 @@ Mods: {
 			Blisterface_GirusTalk.DisplayName: Voz ominosa
 			Blisterface_Drip_Proj.DisplayName: Sludge Droplet
 			ErhanMagnifyingGlass_HoldOut.DisplayName: "{$Mods.Redemption.Items.ErhanMagnifyingGlass.DisplayName}"
-			// LightningRod_Conductor.DisplayName: Conductor Rod
+			LightningRod_Conductor.DisplayName: Barra metálica conductora
 			LightningRod_Discharge.DisplayName: "{$Mods.Redemption.Items.LightningRod.DisplayName}"
-			// CorruptedSentryBase_Proj.DisplayName: Corrupted Sentry Base_ Proj
-			// HoneycombStaff_Proj.DisplayName: Honeycomb Hive
-			// XenoSplat_Small.DisplayName: Xeno Splat
-			// GhastlyRecurve_Holdout.DisplayName: "{$Mods.Redemption.Items.GhastlyRecurve.DisplayName}"
+			CorruptedSentryBase_Proj.DisplayName: Base de soporte corrupto_ Proj
+			HoneycombStaff_Proj.DisplayName: Panal colmena
+			XenoSplat_Small.DisplayName: Xeno-salpicadura
+			GhastlyRecurve_Holdout.DisplayName: "{$Mods.Redemption.Items.GhastlyRecurve.DisplayName}"
 			AkkaRosePortal.DisplayName: Portal de rosa roja
 			AkkaRosePortal_Proj.DisplayName: Espina de rosa roja
 			HellstoneBallista_Bolt.DisplayName: Chispa de piedra infernal
