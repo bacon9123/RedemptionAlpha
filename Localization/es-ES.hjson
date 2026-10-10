@@ -198,7 +198,7 @@ Mods: {
 			}
 
 			Cleaver: {
-				Name: Omega Cuchilla
+				Name: Omega Machetero
 				Modifier: 1er Prototipo Omega
 			}
 
@@ -276,7 +276,7 @@ Mods: {
 			Volt: Un gigante amable que mantiene sus frases cortas y actúa como guardia dentro del laboratorio. Volt solía formar parte de la Unidad Bear en la superficie, pero se retiró después de un altercado violento.
 			MACE: Una vieja máquina de guerra incompleta que se volvió loca. Parece que nunca vio la luz del día, ya que está en proceso de ser desmantelada para obtener partes y componentes.
 			KS3: "'¿Qué? ¿Quieres mi historia? ¡Ve a hacer tu propia historia!'"
-			Cleaver: Un arma de guerra conceptual modificada por Girus, la Omega Cuchilla es una espada gigante controlada por un pequeño mando remoto manejado por otra máquina.
+			Cleaver: Un arma de guerra conceptual modificada por Girus, el Omega Machetero es una espada gigante controlada por un pequeño mando remoto manejado por otra máquina.
 			Gigapora: Una máquina de tunelado modificada, originalmente del diseño TeoChrome, adaptada con propulsores de cohetes, diversas armas y tecnología de escudos proyectados altamente experimental. Los proyectores de escudo de Gigapora tienden a sobrecalentarse y derretirse si están dentro del escudo proyectado, por lo que están colocados en el exterior.
 			Akka: Poco se ha registrado de Akka durante su juventud. Los locales creen que su espíritu se fusionó con un gran árbol en el Reino Espiritual, donde dormiría hasta ser despertada por su esposo para ser adorada una vez más.
 			Ukko: Una vez un herrero en la antigua Tethuram con un inmenso talento para la magia, tan grande que muchos lo consideraban un dios. En su vejez, cansado de su mortalidad, Ukko infundió su alma en un conjunto de rocas, permitiéndose reformarse cuando llegue el momento.
@@ -1960,8 +1960,8 @@ Mods: {
 			}
 
 			SwordRemoteCooldown: {
-				DisplayName: Enfriamento cuchilla remota
-				Description: No puedes usar la cuchilla remota
+				DisplayName: Enfriamento machetero remoto
+				Description: No puedes usar el machetero remoto
 			}
 
 			XeniumCooldown: {
@@ -2298,7 +2298,7 @@ Mods: {
 			}
 
 			CleaverPetBuff: {
-				DisplayName: Omini Cuchilla
+				DisplayName: Omini Machetero
 				Description: *Ruido metálico fuerte*
 			}
 
@@ -3623,14 +3623,14 @@ Mods: {
 				DisplayName: Funda mecánica
 				Tooltip:
 					'''
-					Probabilidad de que al atacar cuerpo a cuerpo a enemigos, se invoque una cuchilla fantasma encima de ellos
+					Probabilidad de que al atacar cuerpo a cuerpo a enemigos, se invoque un machetero fantasma encima de ellos
 					25% más de daño cuerpo a cuerpo
 					'''
 			}
 
 			CleaverHandle: {
-				DisplayName: Empuñadura de cuchilla
-				Tooltip: Invoca una Omini Cuchilla
+				DisplayName: Empuñadura de machetero
+				Tooltip: Invoca un Omini Machetero
 			}
 
 			GasMask: {
@@ -7272,7 +7272,7 @@ Mods: {
 			}
 
 			CleaverRelic: {
-				DisplayName: Reliquia de Omega Cuchilla
+				DisplayName: Reliquia de Omega Machetero
 				Tooltip: ""
 			}
 
@@ -7332,7 +7332,7 @@ Mods: {
 			}
 
 			OmegaCleaverTrophy: {
-				DisplayName: Trofeo Omega Cuchilla
+				DisplayName: Trofeo Omega Machetero
 				Tooltip: ""
 			}
 
@@ -7644,7 +7644,7 @@ Mods: {
 			}
 
 			OmegaCleaverBag: {
-				DisplayName: Bolsa del tesoro (Omega Cuchilla)
+				DisplayName: Bolsa del tesoro (Omega Machetero)
 				Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 			}
 
@@ -8081,29 +8081,29 @@ Mods: {
 				TooltipFirst:
 					'''
 					1er Prototipo Omega
-					'La cuchilla corrupta atrae el poder hacia sí, provocando la hora final'
+					'La espada corrupta se acerca al poder, dando inicio a la hora final'
 					'''
 				TooltipSecond:
 					'''
 					2do Prototipo Omega
-					'Giros mecánicos bajo tierra, ten cuidado con el sonido mortal'
+					'Giros mecánicos bajo tierra, cuídate del sonido mortal'
 					'''
 				TooltipThird:
 					'''
 					3er Prototipo Omega
-					'Siente el sentimiento de la frustración, prepárate para la Obliteración'
+					'Siente el peso de la frustración, prepárate para la Obliteración'
 					Solo utilizable tras derrotar a los 2 primeros Prototipos Omega.
 					'''
 				TooltipFourth:
 					'''
 					4to Prototipo Omega
-					'A medida de que el ruido muere, el fin se acerca; ******* **** **** ******, *** ****** ** **'
+					'Mientras el ruido desaparece, el fin se aproxima; ******* **** **** ******, *** ****** ** **'
 					Solo utilizable tras derrotar a Nebuleus
 					'''
 			}
 
 			WeddingRing: {
-				DisplayName: Anillo de Bodas
+				DisplayName: Anillo de bodas
 				Tooltip:
 					'''
 					Atrae la atención de una amante afligida
@@ -8466,10 +8466,10 @@ Mods: {
 			}
 
 			SwordRemote: {
-				DisplayName: Cuchilla remota
+				DisplayName: Machetero remoto
 				Tooltip:
 					'''
-					Invoca una Omega Cuchilla para lanzar un ataque devastador
+					Invoca un Omega Machetero para lanzar un ataque devastador
 					Clic derecho para cambiar el modo de ataque
 					15 segundos para volver a atacar
 					'El tamaño sí importa'
@@ -8490,8 +8490,8 @@ Mods: {
 			}
 
 			TinyCleaver: {
-				DisplayName: Cuchilla pequeña
-				Tooltip: Los movimientos hacen que los segmentos de la cuchilla se desprendan, lo que aumenta el alcance
+				DisplayName: Machetero pequeño
+				Tooltip: Los movimientos hacen que los segmentos de el machetero se desprendan, lo que aumenta el alcance
 			}
 
 			WraithSlayer: {
@@ -9254,7 +9254,7 @@ Mods: {
 			}
 
 			DragonCleaver: {
-				DisplayName: Cuchilla dragón
+				DisplayName: Machetero dragón
 				Tooltip:
 					'''
 					Los golpes pueden bloquear proyectiles de {0}, que hagan menos de 50 de daño
@@ -11416,7 +11416,7 @@ Mods: {
 
 		Projectiles: {
 			InfectionShield_AcidSpark.DisplayName: Chispas ácidas
-			PhantomCleaver_F2.DisplayName: Cuchilla fantasma
+			PhantomCleaver_F2.DisplayName: Machetero fantasma
 			JyrinaMount_Horse.DisplayName: Jyrina
 			VasaraPendant_Proj.DisplayName: Campo eléctrico
 			ErhanCross_Shield.DisplayName: Escudo sagrado
@@ -11584,7 +11584,7 @@ Mods: {
 			CleaverHitbox.DisplayName: "{$Mods.Redemption.NPCs.OmegaCleaver.DisplayName}"
 			OmegaBlast.DisplayName: Explosión Omega
 			OmegaCleaver_GirusTalk.DisplayName: Voz ominosa
-			PhantomCleaver.DisplayName: Cuchilla fantasma
+			PhantomCleaver.DisplayName: Machetero fantasma
 			PhantomCleaver_F.DisplayName: "{$Mods.Redemption.Projectiles.PhantomCleaver.DisplayName}"
 			PhantomCleaver2.DisplayName: "{$Mods.Redemption.Projectiles.PhantomCleaver.DisplayName}"
 			PhantomCleaver2_Spawner.DisplayName: "{$Mods.Redemption.Projectiles.PhantomCleaver.DisplayName}"
@@ -11935,7 +11935,7 @@ Mods: {
 			AngelErhan_Proj.DisplayName: Ángel Erhan
 			BabyRockpile.DisplayName: Pila de rocas bebé
 			BouquetOfThorns_Proj.DisplayName: Ramo de espinas
-			CleaverPet.DisplayName: Omini cuchilla
+			CleaverPet.DisplayName: Omini machetero
 			CuddlyTeratoma_Proj.DisplayName: Teratoma tierno
 			DevilImp_Proj.DisplayName: Diablillo demoníaco
 			DummyPet_Proj.DisplayName: Dummy Pet
@@ -12188,7 +12188,7 @@ Mods: {
 			}
 
 			OmegaCleaver: {
-				DisplayName: Omega Cuchilla
+				DisplayName: Omega Machetero
 
 				BossChecklistIntegration: {
 					SpawnInfo: Usa el [i:Redemption/OmegaTransmitter] de noche, después de derrotar a plantera.
@@ -12974,7 +12974,7 @@ Mods: {
 			DownedKeeper: Tras derrotar a la Custodia
 			DownedMACE: Tras derrotar al Proyecto MACE
 			DownedNebuleus: Tras derrotar a Nebuleus
-			DownedOmega1: Tras derrotar a Omega Cuchilla
+			DownedOmega1: Tras derrotar a Omega Machetero
 			DownedOmega2: Tras derrotar a Omega Gigapora
 			DownedOmega3: Tras derrotar a Omega Obliterador
 			DownedPZ: Tras derrotar al Paciente cero
