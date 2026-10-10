@@ -3629,7 +3629,7 @@ Mods: {
 			}
 
 			CleaverHandle: {
-				DisplayName: Empuñadura de machetero
+				DisplayName: Empuñadura del machetero
 				Tooltip: Invoca un Omini Machetero
 			}
 
@@ -8491,7 +8491,7 @@ Mods: {
 
 			TinyCleaver: {
 				DisplayName: Machetero pequeño
-				Tooltip: Los movimientos hacen que los segmentos de el machetero se desprendan, lo que aumenta el alcance
+				Tooltip: Los movimientos hacen que los segmentos de el machete se desprendan, lo que aumenta el alcance
 			}
 
 			WraithSlayer: {
@@ -9254,7 +9254,7 @@ Mods: {
 			}
 
 			DragonCleaver: {
-				DisplayName: Machetero dragón
+				DisplayName: Machete dragón
 				Tooltip:
 					'''
 					Los golpes pueden bloquear proyectiles de {0}, que hagan menos de 50 de daño
@@ -11935,7 +11935,7 @@ Mods: {
 			AngelErhan_Proj.DisplayName: Ángel Erhan
 			BabyRockpile.DisplayName: Pila de rocas bebé
 			BouquetOfThorns_Proj.DisplayName: Ramo de espinas
-			CleaverPet.DisplayName: Omini machetero
+			CleaverPet.DisplayName: Omini Machetero
 			CuddlyTeratoma_Proj.DisplayName: Teratoma tierno
 			DevilImp_Proj.DisplayName: Diablillo demoníaco
 			DummyPet_Proj.DisplayName: Dummy Pet
