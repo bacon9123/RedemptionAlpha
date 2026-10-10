@@ -1139,7 +1139,7 @@ Mods: {
 					0: "[@h4]Uhm...[1] No esperaba que explotaras así nada más."
 					1: Yo...[0.2] uh...
 					2: "[@h3]Juraría que moriste...[1][@h4] Debe de ser alguna clase de magia que contiene este lugar."
-					3G: "[@h0]Por el lado bueno,[0.1] no acabo de matar a una persona.[1][@h1] Por el lado malo,[0.1] decidiste volver a perder tu tiempo molestándome otra vez."
+					3G: "[@h0]Por el lado bueno,[0.1] no maté a una persona.[1][@h1] Por el lado malo,[0.1] decidiste volver a perder tu tiempo molestándome otra vez."
 					3B: "[@h1]No importa,[0.1] tengo una misión que cumplir.[1][@h3] No tardaré en descubrir cómo derrotarte para siempre."
 				}
 
@@ -1151,7 +1151,7 @@ Mods: {
 					Downed5: "[@h4]¿Qué?[0.5] ¿Quieres pelear conmigo otra vez?"
 					1: "[@h3]No dejas de volver."
 					2: ¿Listo para una revancha?
-					3: Bueno,[0.1] ¡a ganar de nuevo!
+					3: ¡Bueno,[0.1] te ganaré otra vez!
 					4: ¿Aún quieres pelear?
 					5: "[@h3]Eres peculiarmente resistente..."
 				}
@@ -1168,7 +1168,7 @@ Mods: {
 					StartIfRobot: Esta pequeña lata oxidada es más persistente de lo que pensaba...
 					StartIfChicken: El concepto de perder contra una gallina no me espera nada bueno...
 					StartIfHuman: Golpeas más fuerte de lo que imaginé para ser un saco de carne tan pequeño...
-					Ranged: ¿Te gusta disparar cosas,[0.1] correcto?[0.5] Pues, intenta dispararme ahora.
+					Ranged: ¿Te gusta disparar cosas,[0.1] no?[0.5] Pues, intenta dispararme ahora.
 					Normal: Adelante,[0.1] dispárame si puedes.
 					Joke1: "[@h3]Puede que hasta tenga que empezar a tomarte en serio"
 					Joke2: "[@h0]¡BAH![0.5] ¡Qué chiste!"
@@ -1466,7 +1466,7 @@ Mods: {
 					1: Ah,[0.1] me has traído aquí tú mismo.
 					2: Mis ojos han permanecido sobre ti por demasiado tiempo,[0.1] es hora de tomar acción.
 					2Alt: Perdona mis ojos curiosos,[0.1] pues he estado observando desde lejos.
-					3: Tu presencia consume todos mis pensamientos, [0.1] pero no huiré de esta oportunidad que se me ha otorgado.
+					3: Tu presencia consume todos mis pensamientos,[0.1] pero no huiré de esta oportunidad que se me ha otorgado.
 					4: La charla termina aquí.[0.5] Demuéstrame tu resolución,[0.1] y yo te mostraré la mía.
 					5: Si pierdes contra mí,[0.1] podrás ser perdonado por vigilantes mucho más grandes que yo.
 				}
@@ -1523,7 +1523,7 @@ Mods: {
 					6: Si el Semidiós viene por ti,[0.1] no le hagas saber que sigo con vida.
 					7: Me aterra lo que pueda pensar de mí,[0.1] y no quiero afrontarlo.
 					8: Para pensar que moriré de nuevo tan pronto...
-					9: Soy un ridiculo.
+					9: Soy un ridículo
 				}
 			}
 
@@ -1619,7 +1619,7 @@ Mods: {
 				NebSummon: Esto hará aproximar a un observador silencioso para poner a prueba tu fuerza.
 				NebSummon2:
 					'''
-					 Su pasado es un misterio,
+					Su pasado es un misterio,
 					Sin embargo, en mi alma sé la importancia de su papel en la protección de este mundo.
 					Basándome en tus acciones pasadas, preveo un futuro terrible.
 					'''
@@ -1817,7 +1817,7 @@ Mods: {
 				1: ¿Anglon?
 				2: ¿Ricusa?
 				3: ¿Demonios?
-				Offer: Ofrecer Alabarda del Noble
+				Offer: Ofrecer Alabarda del noble
 			}
 
 			SpiritAssassin: {
@@ -9345,7 +9345,7 @@ Mods: {
 			}
 
 			NoblesHalberd: {
-				DisplayName: Alabarda del Noble
+				DisplayName: Alabarda del noble
 				Tooltip:
 					'''
 					Haz clic derecho para clavar la alabarda, como una {0}
@@ -9829,7 +9829,7 @@ Mods: {
 				DisplayName: Cadáver hazmat
 				Tooltip:
 					'''
-					Da el Traje Hazmat
+					Otorga el Traje Hazmat
 					{$Mods.Redemption.SpecialTooltips.Unbreakable5000}
 					'''
 			}
