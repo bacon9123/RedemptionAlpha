@@ -305,7 +305,7 @@ Mods: {
 			DevilsTongue: Un cactus carnívoro que crece en los desiertos. Produce nubes dolorosas de polen para atraer moscas a su perdición.
 			EpidotrianSkeleton: Estos esqueletos provienen del continente principal de Epidotra. Son ligeramente más altos y más inteligentes que los esqueletos de la isla. Su fuerza depende de su alma, conocida también como Voluntad.
 			SkeletonWanderer: Un esqueleto del continente principal de Epidotra. Lleva hombreras oxidadas y empuña una lanza oxidada.
-			SkeletonNoble: Un esqueleto fuerte que viste el equipo de la Guardia Común de Anglon. Son brutos resistentes que no caerán fácilmente.
+			SkeletonNoble: Un esqueleto fuerte que viste el equipo de la Guardia común de Anglon. Son brutos resistentes que no caerán fácilmente.
 			SkeletonFlagbearer: Todo escuadrón necesita alguien que lleve una gran bandera. Este pequeño esqueleto realiza una danza que puede animar a cualquier no muerto que lo vea. Los no muertos se sienten inspirados, pero los vivos solo lo miran con vergüenza.
 			SkeletonDuelist: Esqueletos con habilidades esgrimistas. Ten cuidado en combates cuerpo a cuerpo con estas calaveras, o podrías acabar con la tuya rodando por el suelo.
 			SkeletonWarden: Un esqueleto con los ojos vendados originario de Anglon. Defiende a otros no muertos con su escudo torre y golpea con fuerza a los atacantes que se acercan demasiado.
@@ -569,26 +569,26 @@ Mods: {
 			CommonGuard: {
 				CommonGuardGreaves:
 					'''
-					'Grebas de cota de placas de la Guardia Común de Anglon, saqueadas por esqueletos.
+					'Grebas de cota de placas de la Guardia común de Anglon, saqueadas por esqueletos.
 					Un día inolvidable, un demonio errante apareció a través de un portal sin vigilancia. Se perdieron vidas y los hogares fueron reducidos a cenizas.
 					Una lección marcada por el calor del fuego infernal, que dio lugar a una nueva unidad para proteger al pueblo Anglónico.'
 					'''
 				CommonGuardHelm1:
 					'''
-					'Un yelmo de la Guardia Común de Anglon, saqueado por esqueletos.
-					Los aldeanos esperan con ansias el día en que su pequeño hogar sea protegido por un miembro de la Guardia Común.
+					'Un yelmo de la Guardia común de Anglon, saqueado por esqueletos.
+					Los aldeanos esperan con ansias el día en que su pequeño hogar sea protegido por un miembro de la Guardia común.
 					Pero no veran la luz del día; a pesar del humilde título de la unidad, engaña.
-					La Guardia Común solo está destinada a lugares importantes y grandes ciudades.
+					La Guardia común solo está destinada a lugares importantes y grandes ciudades.
 					No se presta atención a lo común.'
 					'''
 				CommonGuardHelm2:
 					'''
-					'Un gran yelmo de la Guardia Común de Anglon, saqueado por esqueletos.
-					A pesar de ser más fuertes que el caballero promedio, la Guardia Común no participa en guerras.'
+					'Un gran yelmo de la Guardia común de Anglon, saqueado por esqueletos.
+					A pesar de ser más fuertes que el caballero promedio, la Guardia común no participa en guerras.'
 					'''
 				CommonGuardPlateMail:
 					'''
-					'Cota de placas de la Guardia Común de Anglon, saqueada por esqueletos.
+					'Cota de placas de la Guardia común de Anglon, saqueada por esqueletos.
 					Alguna vez de acero brillante, el metal se ha apagado con el tiempo y está cubierto por un polvo persistente.
 					La tela roja, sin embargo, permanece sin desteñir. Los tejidos y tintes anglónicos rara vez son de mala calidad.'
 					'''
@@ -1356,7 +1356,7 @@ Mods: {
 					3: Toma,[0.1] llévate esta cosa para acceder al laboratorio y ¡piérdete!
 					4: "[@a]Tengo que trapear un poco."
 					B1: Oye...
-					B2: ¿Acabas de...[0.5] bloquearme el camino?
+					B2: ¿Me acabas de...[0.5] bloquear el camino?
 					B3: ¡Pues vete al diablo tú también!
 				}
 			}
@@ -3388,7 +3388,7 @@ Mods: {
 			}
 
 			SpiritCommonGuard: {
-				CruxDialogue: Sí, tómalo, dentro de mí yace el espíritu de la Guardia Común. Que te proteja y te proteja contra el mayor de los enemigos.
+				CruxDialogue: Sí, tómalo, dentro de mí yace el espíritu de la Guardia común. Que te proteja y te proteja contra el mayor de los enemigos.
 				NoCruxDialogue: Necesitaré algo para imbuir primero.
 				OfferCruxDialogue: Con mucho gusto, pero solicito algo a cambio. Mis restos yacen con las manos vacías, si puedes ofrecerme un arma de mi unidad, entonces seré complaciente. Un cadáver solitario cuenta una historia simple.
 				Dialogue: ¿Qué clase de brujería es ésta? Y yo que pensaba que éramos inmunes a la presencia del mundo físico...
@@ -4245,7 +4245,7 @@ Mods: {
 			}
 
 			HikariteBreastplate: {
-				DisplayName: Coraza de Hikarite
+				DisplayName: Coraza de hikarita
 				Tooltip:
 					'''
 					14% más de daño
@@ -4259,7 +4259,7 @@ Mods: {
 			}
 
 			HikariteGreaves: {
-				DisplayName: Grebas de Hikarite
+				DisplayName: Grebas de hikarita
 				Tooltip:
 					'''
 					13% más de daño
@@ -4274,7 +4274,7 @@ Mods: {
 			}
 
 			HikariteHelmet: {
-				DisplayName: Gran yelmo de Hikarite
+				DisplayName: Gran yelmo de hikarita
 				Tooltip:
 					'''
 					16% más de daño
@@ -4312,7 +4312,7 @@ Mods: {
 			}
 
 			ShinkiteChestplate: {
-				DisplayName: Coraza de Shinkite
+				DisplayName: Coraza de shinkita
 				Tooltip:
 					'''
 					25% más de daño cuerpo a cuerpo
@@ -4321,7 +4321,7 @@ Mods: {
 			}
 
 			ShinkiteHelmet: {
-				DisplayName: Casco de Shinkite
+				DisplayName: Casco de shinkita
 				Tooltip:
 					'''
 					35% más de daño cuerpo a cuerpo
@@ -4330,7 +4330,7 @@ Mods: {
 			}
 
 			ShinkiteLeggings: {
-				DisplayName: Perneras de Shinkite
+				DisplayName: Perneras de shinkita
 				Tooltip:
 					'''
 					20% más de velocidad del ataque cuerpo a cuerpo
@@ -4392,22 +4392,22 @@ Mods: {
 			}
 
 			CommonGuardGreaves: {
-				DisplayName: Grebas de Guardia Común
+				DisplayName: Grebas de guardia común
 				Tooltip: 7% más de velocidad del ataque cuerpo a cuerpo
 			}
 
 			CommonGuardHelm1: {
-				DisplayName: Yelmo de Guardia Común
+				DisplayName: Yelmo de guardia común
 				Tooltip: +2 más de daño cuerpo a cuerpo
 			}
 
 			CommonGuardHelm2: {
-				DisplayName: Gran yelmo de Guardia Común
+				DisplayName: Gran yelmo de guardia común
 				Tooltip: +1 más de daño cuerpo a cuerpo
 			}
 
 			CommonGuardPlateMail: {
-				DisplayName: Cota de placas de Guardia Común
+				DisplayName: Cota de placas de guardia común
 				Tooltip: 4% menos de daño recibido
 			}
 
@@ -7222,22 +7222,22 @@ Mods: {
 			}
 
 			ShinkiteBeam: {
-				DisplayName: Viga de shinkite
+				DisplayName: Viga de shinkita
 				Tooltip: ""
 			}
 
 			ShinkiteBrick: {
-				DisplayName: Ladrillo de shinkite
+				DisplayName: Ladrillo de shinkita
 				Tooltip: ""
 			}
 
 			ShinkiteBrickOrnate: {
-				DisplayName: Ladrillo de shinkite adornado
+				DisplayName: Ladrillo de shinkita adornado
 				Tooltip: ""
 			}
 
 			ShinkiteBrickWall: {
-				DisplayName: Pared de ladrillo de shinkite
+				DisplayName: Pared de ladrillo de shinkita
 				Tooltip: ""
 			}
 
@@ -9349,7 +9349,7 @@ Mods: {
 				Tooltip:
 					'''
 					Haz clic derecho para clavar la alabarda, como una {0}
-					'Una de las armas principales utilizadas por la Guardia Común de Anglon'
+					'Una de las armas principales utilizadas por la Guardia común de Anglon'
 					'''
 			}
 
@@ -10657,7 +10657,7 @@ Mods: {
 			}
 
 			ShinkiteBrickOrnateWall: {
-				DisplayName: Pared de ladrillo de shinkite adornado
+				DisplayName: Pared de ladrillo de shinkita adornado
 				Tooltip: ""
 			}
 
@@ -11389,7 +11389,7 @@ Mods: {
 			}
 
 			DarkShinkiteBrick: {
-				DisplayName: Ladrillo de shinkite oscuro
+				DisplayName: Ladrillo de shinkita oscuro
 				Tooltip: ""
 			}
 
