@@ -504,7 +504,7 @@ Mods: {
 					20% más de resistencia elemental contra {0}
 					10% más de daño en armas del tipo {1}
 					33% más de probabilidad de infligir LlamaDragón
-					100% de que las armas hechas con Dragón-plomo inflijan LlamaDragón
+					100% de que las armas hechas con dragón-plomo inflijan LlamaDragón
 					'''
 
 				Hardlight: {
@@ -4412,7 +4412,7 @@ Mods: {
 			}
 
 			DragonLeadGreaves: {
-				DisplayName: Grebas de Dragón-plomo
+				DisplayName: Grebas de dragón-plomo
 				Tooltip:
 					'''
 					8% más de probabilidad de crítico
@@ -4421,7 +4421,7 @@ Mods: {
 			}
 
 			DragonLeadRibplate: {
-				DisplayName: Placa torácica de Dragón-plomo
+				DisplayName: Placa torácica de dragón-plomo
 				Tooltip:
 					'''
 					7% más de daño
@@ -4430,7 +4430,7 @@ Mods: {
 			}
 
 			DragonLeadSkull: {
-				DisplayName: Calavera de Dragón-plomo
+				DisplayName: Calavera de dragón-plomo
 				Tooltip: 7% más de daño
 			}
 
@@ -4618,7 +4618,7 @@ Mods: {
 
 			OOMask: {
 				DisplayName: Máscara de Obliterador
-				Tooltip: "'Yo.'"
+				Tooltip: "'Yoh.'"
 			}
 
 			PZMask: {
@@ -5419,7 +5419,7 @@ Mods: {
 
 			RoboBrain: {
 				DisplayName: Cerebro obliterador
-				Tooltip: "'Ya no eres tan inteligente, ¿no?'"
+				Tooltip: "'¿Quién es el inteligente ahora?'"
 			}
 
 			Shadesoul: {
@@ -5428,7 +5428,7 @@ Mods: {
 			}
 
 			VesselFragment: {
-				DisplayName: Fragmento del Recipiente
+				DisplayName: Fragmento del recipiente
 				Tooltip: ""
 			}
 
@@ -5462,12 +5462,12 @@ Mods: {
 			}
 
 			DragonLeadAlloy: {
-				DisplayName: Aleación Dragón-plomo
+				DisplayName: Aleación dragón-plomo
 				Tooltip: ""
 			}
 
 			DragonLeadOre: {
-				DisplayName: Mineral Dragón-plomo
+				DisplayName: Mineral dragón-plomo
 				Tooltip: ""
 			}
 
