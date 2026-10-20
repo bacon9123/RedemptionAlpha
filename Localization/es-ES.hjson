@@ -3025,8 +3025,8 @@ Mods: {
 				Dialogue13: Dato curioso sobre insectos: Las arañas de piel arenosa viven en desiertos, deambulan por la noche cuando otros insectos pequeños salen a comer. Cuando llega el día caluroso, la araña se entierra un poco bajo la arena para dormir. Sí, me gustan los insectos.
 				Dialogue14: ¿Las "floraciones vivientes" deambulan por esta isla? Son nativos de los exuberantes bosques de Anglon. Las "floraciones vivientes" son más planta que animal. Parece que muchas criaturas llegaron a esta isla a través del portal.
 				Dialogue15: ¿Hay zombis aquí? No es que me sorprenda, hay muchos tipos de muertos vivientes en mis tierras también.
-				NoMoneyDialogue1: ¿Eres tan pobre como yo?
-				NoMoneyDialogue2: ¿De verdad no tienes dinero suficiente? Ah como sea, tampoco es como si pueda quejarme.
+				NoMoneyDialogue1: ¿Estás igual de pobre que yo?
+				NoMoneyDialogue2: ¿De verdad no tienes dinero suficiente? Ah da igual, no debería quejarme.
 				BookQuestComplete:
 					'''
 					¡Mira nada más, al parecer completaste el libro [i:Redemption/BookOfBonuses] que te di! ¿Cuánto tiempo te llevó? Déjame echarle un vistazo...
@@ -3034,12 +3034,12 @@ Mods: {
 					'''
 
 				Advice: {
-					StarSerpent: Sinceramente, me sorprende que todavía vengas a pedirme consejo. Pareces una persona inteligente, mucho más que yo. Pero, de todos modos, últimamente he estado viendo guivernos interesantes en el cielo, morados y dorados. Ve a comprobarlo si lo deseas.
+					StarSerpent: Sinceramente, me sorprende que todavía vengas a pedirme consejos. Pareces una persona inteligente, mucho más que yo. Pero, de todos modos, últimamente me he quedado viendo a unos guivernos interesantes en el cielo, morados y dorados. Ve a comprobarlo por ti mismo si lo deseas.
 					UkkoEye: Mmm, ese ojo brillante que tienes parece bastante... mítico. ¿Y también te está planteando un acertijo? "Rodéalo con las piedras de su origen"... Bueno, tienes que colocar algunas piedras a su alrededor, la pregunta es ¿de qué tipo? Tal vez deberías preguntarle a {0}.
 					Androids: He visto algunos robots deambulando por la isla, escaneando objetos y criaturas al azar. No tengo idea de dónde vinieron, pero vi que uno fue atacado. Casi muerto, dejó de moverse y se teletransportó al cielo. Su propósito es un misterio para mí. ¿Quizás puedas descifrarlo?
 					ForestNymph: La dríada, {0}, dice que ha visto una ninfa del bosque en esta isla en algún momento. Rara vez se las ve, generalmente cerca de árboles gigantes. Si te encuentras con una, no te quedes mucho tiempo cerca, no les gusta que los humanos se metan en su espacio personal. Me pregunto si habría alguna forma de hacerse amigo de una.
 					UGPortal: "{0} me ha dicho que vino de otro portal subterráneo. Al parecer conduce a unas catacumbas en Gathuram. Me ha contado que hay cosas bastante intrigantes junto al portal. Podría ser un hallazgo interesante."
-					EaglecrestGolem: Mientras caminaba, me encontré con unas piedras de forma extraña, parecían rocas con patas. Sentí curiosidad, por supuesto, así que le disparé desde una distancia segura. No pasó nada... y, sin embargo, sentí una presencia en su interior. Tú, como cazador de muchas cosas, deberías buscar y encontrarla, podría ser otro enemigo al que enfrentarte.
+					EaglecrestGolem: Mientras caminaba, me encontré con unas piedras con formas extrañas, parecía una roca gigante con patas. Sentí curiosidad, por supuesto, así que le disparé desde una distancia segura. No pasó nada... y, sin embargo, sentí una presencia en su interior. Tú, como cazador de muchas cosas, deberías buscar y encontrarla, podría ser otro enemigo al que enfrentarte.
 					Spirits:
 						'''
 						¿Alguna vez has visto pequeñas luces bailando desde un esqueleto muerto? ¿O un fantasma que lleva una linterna bajo tierra? Esas son almas perdidas y creo que solo las armas tipo {0} pueden hacerles daño.
@@ -3049,7 +3049,7 @@ Mods: {
 					Undead: Al encontrarnos con esqueletos y no muertos, es lógico suponer que las armas del tipo {0} no son efectivas contra ellos, mientras que las armas del tipo {1} sí lo son. Me gustaba explorar las cuevas, hasta que Zephos y yo nos encontramos con un esqueleto Vex...
 					Slimes: ¿Cuál es la mejor manera de acabar con los slimes? Quemarlos. Alternativamente, las armas del tipo {0} pueden congelarlos en su lugar y LUEGO puedes quemarlos
 					Invisibility: Si alguna vez quieres acercarte sigilosamente a los esqueletos o pollos de Epidotria, las pociones de invisibilidad son muy útiles para la tarea. Aunque me pregunto cómo las criaturas nativas de esta isla siempre parecen saber dónde estás...
-					DirtyWound: Las armas que pueden portar los esqueletos están muy oxidadas, por lo que sería malo que te lastimaran. Si lo haces, sumérgete en un poco de agua y la herida sucia desaparecerá.
+					DirtyWound: Las armas que pueden portar los esqueletos están muy oxidadas, por lo que sería malo que te lastimaran. Si te hieren, sumérgete en un poco de agua y la herida sucia desaparecerá.
 					GuardPoints: ¿Ves enemigos con armadura o escudos? Tendrás que romper su blindaje para acabar con ellos. Un martillo [i:Redemption/Hammer] o explosivos [i:Redemption/Explosive] deberían ser más eficaces, solo asegúrate de que tu arma no sea demasiado débil.
 					Fool: Sentí una presencia extraña debajo del portal por el que salté, lo cual es bastante peculiar. Tal vez deberías echarle un vistazo.
 					Erhan: Noté un pergamino sobre una mesa pequeña junto al portal por el que salí. ¿Ya lo recogiste? Parecía bastante... demoníaco.
