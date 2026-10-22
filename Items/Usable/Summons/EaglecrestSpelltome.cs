@@ -5,6 +5,7 @@ using Redemption.NPCs.Minibosses.EaglecrestGolem;
 using Microsoft.Xna.Framework;
 using Redemption.WorldGeneration.Soulless;
 using SubworldLibrary;
+using Terraria.Localization;
 
 namespace Redemption.Items.Usable.Summons
 {
@@ -44,7 +45,7 @@ namespace Redemption.Items.Usable.Summons
             {
                 int type = ModContent.NPCType<EaglecrestGolem_Sleep>();
 
-                Main.NewText("A sleeping stone appears...", Color.Gray);
+                Main.NewText(Language.GetTextValue("Mods.Redemption.StatusMessage.Other.GolemSpawn"), Color.Gray);
 
                 if (Main.netMode != NetmodeID.MultiplayerClient)
                     NPC.SpawnOnPlayer(player.whoAmI, type);
