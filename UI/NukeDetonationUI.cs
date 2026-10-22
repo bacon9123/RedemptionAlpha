@@ -15,7 +15,11 @@ namespace Redemption.UI
 {
     public class NukeDetonationUI : UIState
     {
-        private readonly UIImage BgSprite = new(Request<Texture2D>("Redemption/UI/NukeDetonationUI_BG", ReLogic.Content.AssetRequestMode.ImmediateLoad));
+        private readonly UIImage BgSprite = new(Request<Texture2D>(
+            ModContent.HasAsset($"Redemption/UI/NukeDetonationUI_BG_{Language.ActiveCulture.Name}")
+                ? $"Redemption/UI/NukeDetonationUI_BG_{Language.ActiveCulture.Name}"
+                : "Redemption/UI/NukeDetonationUI_BG",
+            ReLogic.Content.AssetRequestMode.ImmediateLoad));
         private readonly UIImage ButtonSprite = new(Request<Texture2D>("Redemption/UI/NukeDetonationUI_Button1", ReLogic.Content.AssetRequestMode.ImmediateLoad));
         private readonly UIImageButton SwitchSprite1 = new(Request<Texture2D>("Redemption/UI/NukeDetonationUI_SwitchDown", ReLogic.Content.AssetRequestMode.ImmediateLoad));
         private readonly UIImageButton SwitchSprite2 = new(Request<Texture2D>("Redemption/UI/NukeDetonationUI_SwitchDown", ReLogic.Content.AssetRequestMode.ImmediateLoad));
